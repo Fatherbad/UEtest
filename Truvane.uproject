@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{00048F9D-1F08-1317-002D-020D5E7EAA93}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Truvane",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

@@ -1,0 +1,1689 @@
+﻿Log file open, 08/24/18 11:42:04
+LogInit: Display: Running engine for game: Truvane
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.076150
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogStreaming: Display: Took  0.571s to configure plugins.
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.2-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Aug 23 2018 22:05:32
+LogInit: Compiled with Clang: 5.0.0 (tags/RELEASE_500/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: /home/fatherbad/Game/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.24-18.42.05:279][  0]LogInit: Initializing SDL.
+[2018.08.24-18.42.05:607][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2018.08.24-18.42.05:607][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2018.08.24-18.42.05:607][  0]LogInit: Using SDL video driver 'x11'
+[2018.08.24-18.42.05:631][  0]LogInit: Display metrics:
+[2018.08.24-18.42.05:631][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2018.08.24-18.42.05:631][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2018.08.24-18.42.05:631][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2018.08.24-18.42.05:632][  0]LogInit:     Left=65, Top=24, Right=1920, Bottom=1080
+[2018.08.24-18.42.05:632][  0]LogInit:   VirtualDisplayRect:
+[2018.08.24-18.42.05:632][  0]LogInit:     Left=65, Top=24, Right=1920, Bottom=1080
+[2018.08.24-18.42.05:632][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.08.24-18.42.05:632][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2018.08.24-18.42.05:632][  0]LogInit:   Number of monitors: 1
+[2018.08.24-18.42.05:632][  0]LogInit:     Monitor 0
+[2018.08.24-18.42.05:632][  0]LogInit:       Name: 0
+[2018.08.24-18.42.05:632][  0]LogInit:       ID: display0
+[2018.08.24-18.42.05:632][  0]LogInit:       NativeWidth: 1920
+[2018.08.24-18.42.05:632][  0]LogInit:       NativeHeight: 1080
+[2018.08.24-18.42.05:632][  0]LogInit:       bIsPrimary: true
+[2018.08.24-18.42.05:635][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.08.24-18.42.05:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2018.08.24-18.42.05:673][  0]LogHAL: Display: Platform has ~ 4 GB [16696033280 / 4294967296 / 16], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.24-18.42.05:673][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.24-18.42.05:673][  0]LogInit: Using custom *.sym to symbolicate
+[2018.08.24-18.42.05:673][  0]LogInit: Unix hardware info:
+[2018.08.24-18.42.05:673][  0]LogInit:  - we are the first instance of this executable
+[2018.08.24-18.42.05:673][  0]LogInit:  - this process' id (pid) is 8047, parent process' id (ppid) is 2081
+[2018.08.24-18.42.05:674][  0]LogInit:  - we are not running under debugger
+[2018.08.24-18.42.05:674][  0]LogInit:  - machine network name is 'fatherbad-pc'
+[2018.08.24-18.42.05:674][  0]LogInit:  - user name is 'fatherbad' (fatherbad)
+[2018.08.24-18.42.05:674][  0]LogInit:  - we're logged in locally
+[2018.08.24-18.42.05:674][  0]LogInit:  - we're running with rendering
+[2018.08.24-18.42.05:674][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz' (signature: 0x806E9)
+[2018.08.24-18.42.05:674][  0]LogInit:  - Number of physical cores available for the process: 2
+[2018.08.24-18.42.05:674][  0]LogInit:  - Number of logical cores available for the process: 4
+[2018.08.24-18.42.05:674][  0]LogInit:  - Cache line size: 64
+[2018.08.24-18.42.05:674][  0]LogInit:  - Memory allocator used: binned2
+[2018.08.24-18.42.05:674][  0]LogCore: Benchmarking clocks:
+[2018.08.24-18.42.05:674][  0]LogCore:  - CLOCK_REALTIME (id=0) can sustain 47484563 (47485K, 47M) calls per second without zero deltas.
+[2018.08.24-18.42.05:674][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 48972045 (48972K, 49M) calls per second without zero deltas.
+[2018.08.24-18.42.05:674][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 3405578 (3406K, 3M) calls per second without zero deltas.
+[2018.08.24-18.42.05:674][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 148467667 (148468K, 148M) calls per second with 99.999825% zero deltas.
+[2018.08.24-18.42.05:674][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2018.08.24-18.42.05:674][  0]LogInit: Unix-specific commandline switches:
+[2018.08.24-18.42.05:674][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2018.08.24-18.42.05:674][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2018.08.24-18.42.05:674][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2018.08.24-18.42.05:674][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2018.08.24-18.42.05:674][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2018.08.24-18.42.05:674][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2018.08.24-18.42.05:674][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2018.08.24-18.42.05:674][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2018.08.24-18.42.05:675][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15922 MB, 16304720 KB, 16696033280 bytes)
+[2018.08.24-18.42.05:822][  0]LogInit: Using OS detected language (en-US).
+[2018.08.24-18.42.05:822][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.24-18.42.05:822][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.24-18.42.06:224][  0]LogStreaming: Display: Took  0.402s to InitEngineTextLocalization.
+[2018.08.24-18.42.06:298][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.24-18.42.06:298][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.24-18.42.07:346][  0]LogRHI: Initializing OpenGL RHI
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_VENDOR: Intel Open Source Technology Center
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_RENDERER: Mesa DRI Intel(R) HD Graphics 620 (Kaby Lake GT2) 
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_VERSION: 4.5 (Core Profile) Mesa 18.0.5
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.50
+[2018.08.24-18.42.07:346][  0]LogRHI: OpenGL Extensions:
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_3DFX_texture_compression_FXT1
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_AMD_conservative_depth
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_AMD_draw_buffers_blend
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_AMD_shader_stencil_export
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_AMD_shader_trinary_minmax
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ANGLE_texture_compression_dxt3
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ANGLE_texture_compression_dxt5
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_APPLE_object_purgeable
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_base_instance
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_blend_func_extended
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_buffer_storage
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_clear_texture
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_clip_control
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_compute_shader
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_conservative_depth
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_copy_buffer
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_copy_image
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_cull_distance
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_debug_output
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_depth_clamp
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_derivative_control
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_direct_state_access
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_draw_buffers
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_draw_indirect
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_draw_instanced
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_fragment_shader
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_framebuffer_object
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_get_program_binary
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_gpu_shader5
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_half_float_pixel
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_half_float_vertex
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_indirect_parameters
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_instanced_arrays
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_internalformat_query
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_internalformat_query2
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_map_buffer_range
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_multi_bind
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_occlusion_query2
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_point_sprite
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_polygon_offset_clamp
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_post_depth_coverage
+[2018.08.24-18.42.07:346][  0]LogRHI:   GL_ARB_program_interface_query
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_provoking_vertex
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_query_buffer_object
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_robustness
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_sample_shading
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_sampler_objects
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_ballot
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_clock
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_group_vote
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_image_size
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_objects
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_precision
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_stencil_export
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_subroutine
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shader_viewport_layer_array
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_shading_language_packing
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_stencil_texturing
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_sync
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_tessellation_shader
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_barrier
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_filter_anisotropic
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_float
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_gather
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_multisample
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_query_levels
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_query_lod
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_rectangle
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_rg
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_stencil8
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_storage
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_swizzle
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_texture_view
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_timer_query
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_transform_feedback2
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_transform_feedback3
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_vertex_array_object
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_vertex_shader
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ARB_viewport_array
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ATI_blend_equation_separate
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_ATI_texture_float
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_abgr
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_draw_buffers2
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_draw_instanced
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_packed_float
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_provoking_vertex
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_shader_samples_identical
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_array
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_integer
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_sRGB
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_snorm
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_texture_swizzle
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_timer_query
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_transform_feedback
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_IBM_multimode_draw_arrays
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_INTEL_conservative_rasterization
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_INTEL_performance_query
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_blend_equation_advanced_coherent
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_context_flush_control
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_debug
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_no_error
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_robustness
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_texture_compression_astc_ldr
+[2018.08.24-18.42.07:347][  0]LogRHI:   GL_KHR_texture_compression_astc_sliced_3d
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_MESA_pack_invert
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_MESA_shader_integer_functions
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_MESA_texture_signed_rgba
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_NV_conditional_render
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_NV_depth_clamp
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_NV_texture_barrier
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_OES_EGL_image
+[2018.08.24-18.42.07:348][  0]LogRHI:   GL_S3_s3tc
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_SAMPLES: 16
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 16
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 16
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 16
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2018.08.24-18.42.07:367][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2018.08.24-18.42.07:367][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 5, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2018.08.24-18.42.07:379][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../Projects/Truvane/Intermediate/Shaders/WorkingDirectory/8047/).
+[2018.08.24-18.42.07:379][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../Projects/Truvane/Intermediate/Shaders/tmp/0003ED6408D609B69EE1B1F2524F2271/'.
+[2018.08.24-18.42.07:379][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.24-18.42.08:919][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.24-18.42.09:040][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.24-18.42.09:170][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.24-18.42.09:293][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.24-18.42.09:417][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.24-18.42.09:532][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.24-18.42.09:701][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2018.08.24-18.42.10:112][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.24-18.42.10:437][  0]LogDerivedDataCache: Loaded boot cache 0.32s 94MB ../../../../Projects/Truvane/DerivedDataCache/Boot.ddc.
+[2018.08.24-18.42.10:437][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../Projects/Truvane/DerivedDataCache/Boot.ddc
+[2018.08.24-18.42.10:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/Truvane/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.24-18.42.10:437][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.24-18.42.10:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.24-18.42.10:438][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.08.24-18.42.10:438][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2018.08.24-18.42.10:438][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.24-18.42.10:438][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.24-18.42.10:461][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2018.08.24-18.42.10:470][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.24-18.42.10:471][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2018.08.24-18.42.10:545][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2018.08.24-18.42.10:863][  0]LogLinux: Selected Device Profile: [Linux]
+[2018.08.24-18.42.11:267][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.24-18.42.11:267][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.24-18.42.11:267][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.08.24-18.42.11:267][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.08.24-18.42.11:267][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.08.24-18.42.11:267][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.08.24-18.42.11:288][  0]LogNetVersion: Truvane 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1714667968)
+[2018.08.24-18.42.11:937][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.048489 seconds
+[2018.08.24-18.42.11:951][  0]LogUObjectArray: 37547 objects as part of root set at end of initial load.
+[2018.08.24-18.42.11:951][  0]LogUObjectAllocator: 6509480 out of 0 bytes used by permanent object pool.
+[2018.08.24-18.42.11:951][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.24-18.42.12:139][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2018.08.24-18.42.12:915][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.08.24-18.42.12:915][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.08.24-18.42.12:915][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.24-18.42.12:915][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.24-18.42.12:915][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.24-18.42.12:915][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.24-18.42.12:916][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.08.24-18.42.12:916][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.08.24-18.42.12:916][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.24-18.42.12:916][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.24-18.42.12:916][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.24-18.42.12:916][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.24-18.42.12:917][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.08.24-18.42.12:917][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.08.24-18.42.12:917][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.24-18.42.12:917][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.24-18.42.12:917][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.24-18.42.12:917][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.24-18.42.12:917][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.08.24-18.42.12:918][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.08.24-18.42.12:918][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.24-18.42.12:918][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.24-18.42.12:918][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.08.24-18.42.12:918][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.08.24-18.42.12:921][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.08.24-18.42.12:921][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.08.24-18.42.12:921][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:921][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:922][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:922][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:922][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.08.24-18.42.12:922][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.08.24-18.42.12:922][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:922][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:923][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:923][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:923][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.08.24-18.42.12:923][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.08.24-18.42.12:923][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:923][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:924][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:924][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:924][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.08.24-18.42.12:924][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.08.24-18.42.12:924][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:924][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:925][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:925][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:925][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.08.24-18.42.12:925][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.08.24-18.42.12:926][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:926][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:926][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:926][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:927][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.08.24-18.42.12:927][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.08.24-18.42.12:927][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:927][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:927][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:927][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:928][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.08.24-18.42.12:928][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.08.24-18.42.12:928][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:928][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:928][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:928][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:929][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.08.24-18.42.12:929][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.08.24-18.42.12:929][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:929][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:929][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:929][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:930][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.08.24-18.42.12:930][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.08.24-18.42.12:930][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:930][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:930][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:930][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:931][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.08.24-18.42.12:931][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.08.24-18.42.12:931][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:931][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:931][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:931][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:932][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.08.24-18.42.12:932][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.08.24-18.42.12:932][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:932][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:932][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:932][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:933][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.08.24-18.42.12:933][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.08.24-18.42.12:933][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:933][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:933][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:933][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:933][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.08.24-18.42.12:933][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.08.24-18.42.12:934][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:934][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:934][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:934][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:934][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.08.24-18.42.12:934][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.08.24-18.42.12:935][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:935][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:935][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:935][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:935][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.08.24-18.42.12:935][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.08.24-18.42.12:935][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:935][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:936][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:936][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:936][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.08.24-18.42.12:936][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.08.24-18.42.12:936][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:936][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:937][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:937][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:937][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.08.24-18.42.12:937][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.08.24-18.42.12:937][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:937][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:938][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:938][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.08.24-18.42.12:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.08.24-18.42.12:938][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.12:939][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.08.24-18.42.12:939][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.08.24-18.42.14:805][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.24-18.42.14:810][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.24-18.42.19:183][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.24-18.42.20:694][  0]SourceControl: Source control is disabled
+[2018.08.24-18.42.20:694][  0]SourceControl: Source control is disabled
+[2018.08.24-18.42.20:809][  0]SourceControl: Source control is disabled
+[2018.08.24-18.42.20:924][  0]SourceControl: Source control is disabled
+[2018.08.24-18.42.23:416][  0]LogEngine: Initializing Engine...
+[2018.08.24-18.42.23:416][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.24-18.42.23:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.24-18.42.23:418][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.24-18.42.23:418][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.24-18.42.23:418][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.24-18.42.23:736][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.24-18.42.24:150][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.24-18.42.24:158][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2018.08.24-18.42.24:158][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2018.08.24-18.42.24:158][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2018.08.24-18.42.24:158][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2018.08.24-18.42.24:158][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2018.08.24-18.42.24:158][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2018.08.24-18.42.24:158][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2018.08.24-18.42.24:158][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2018.08.24-18.42.24:166][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2018.08.24-18.42.24:229][  0]LogInit: FAudioDevice initialized.
+[2018.08.24-18.42.24:230][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.24-18.42.24:298][  0]LogDerivedDataCache: Saved boot cache 0.07s 95MB ../../../../Projects/Truvane/DerivedDataCache/Boot.ddc.
+[2018.08.24-18.42.24:498][  0]LogInit: Texture streaming: Enabled
+[2018.08.24-18.42.24:544][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.24-18.42.24:918][  0]LogInit: Transaction tracking system initialized
+[2018.08.24-18.42.25:640][  0]BlueprintLog: New page: Editor Load
+[2018.08.24-18.42.27:780][  0]LocalizationService: Localization service is disabled
+[2018.08.24-18.42.29:204][  0]LogFileCache: Scanning file cache for directory '/home/fatherbad/Game/Projects/Truvane/Content/' took 0.00s
+[2018.08.24-18.42.29:204][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.24-18.42.29:204][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.24-18.42.29:204][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.24-18.42.29:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.24-18.42.29:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.24-18.42.29:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.24-18.42.29:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.24-18.42.31:860][  0]SourceControl: Source control is disabled
+[2018.08.24-18.42.31:865][  0]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.31:865][  0]LogLinux: Scale at X=537.500000, Y=335.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.31:866][  0]LogLinux: Scale at X=992.500000, Y=552.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.31:896][  0]LogSlate: Took 0.000065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.24-18.42.32:083][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.42.43:299][  0]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.43:342][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.42.48:209][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.08.24-18.42.48:355][  0]Cmd: MAP LOAD FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.24-18.42.48:356][  0]LightingResults: New page: Lighting Build
+[2018.08.24-18.42.48:450][  0]MapCheck: New page: Map Check
+[2018.08.24-18.42.48:450][  0]LightingResults: New page: Lighting Build
+[2018.08.24-18.42.48:718][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.08.24-18.42.48:728][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.24-18.42.48:805][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.24-18.42.48:827][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 21.928ms to complete.
+[2018.08.24-18.42.48:827][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.472
+[2018.08.24-18.42.48:832][  0]LogLinux: Scale at X=352.500000, Y=192.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.48:832][  0]LogLinux: Scale at X=997.500000, Y=557.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.48:835][  0]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.48:882][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.24-18.42.48:891][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.24-18.42.48:899][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.24-18.42.48:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.24-18.42.48:918][  0]LogCollectionManager: Loaded 0 collections in 0.002743 seconds
+[2018.08.24-18.42.48:935][  0]LogFileCache: Scanning file cache for directory '/home/fatherbad/Game/Projects/Truvane/Saved/Collections/' took 0.00s
+[2018.08.24-18.42.48:935][  0]LogFileCache: Scanning file cache for directory '/home/fatherbad/Game/Projects/Truvane/Content/Developers/fatherbad/Collections/' took 0.00s
+[2018.08.24-18.42.48:935][  0]LogFileCache: Scanning file cache for directory '/home/fatherbad/Game/Projects/Truvane/Content/Collections/' took 0.00s
+[2018.08.24-18.42.48:935][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2547 classes and 568 folders.
+[2018.08.24-18.42.48:940][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.08.24-18.42.49:158][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.24-18.42.49:260][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.24-18.42.49:372][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.24-18.42.49:415][  0]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.49:415][  0]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.49:415][  0]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.49:451][  0]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.42.49:451][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.08.24-18.42.49:579][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.24-18.42.49:579][  0]LogLoad: (Engine Initialization) Total time: 46.73 seconds
+[2018.08.24-18.42.49:579][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.24-18.42.49:595][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.24-18.42.49:604][  0]LogSlate: Took 0.000880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.24-18.42.49:707][  0]LogRenderer: Reallocating scene render targets to support 1168x584 Format 10 NumSamples 1 (Frame:1).
+[2018.08.24-18.42.53:392][  0]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.42.53:392][  0]LogInit: Adding external input plugin.
+[2018.08.24-18.42.53:413][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.08.24-18.42.53:495][  0]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.24-18.42.53:517][  1]LogAssetRegistry: Asset discovery search completed in 42.9729 seconds
+[2018.08.24-18.42.53:519][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.24-18.42.53:519][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2018.08.24-18.42.59:280][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.24-18.43.03:682][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.43.03:682][294]LogLinux: Scale at X=555.000000, Y=273.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.43.03:686][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.43.03:735][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.43.57:488][294]LogDirectoryWatcher: Warning: inotify_add_watch cannot watch folder /home/fatherbad/Game/Assets/022bc9bc0be1842860a0c074f39a709e (errno = 2, No such file or directory)
+[2018.08.24-18.43.57:488][294]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor -1 for folder '/home/fatherbad/Game/Assets/022bc9bc0be1842860a0c074f39a709e' (errno = 22, Invalid argument)
+[2018.08.24-18.43.57:488][294]LogDirectoryWatcher: Warning: inotify_add_watch cannot watch folder /home/fatherbad/Game/Assets/022bc9bc0be1842860a0c074f39a709e (2) (errno = 2, No such file or directory)
+[2018.08.24-18.43.57:489][294]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor -1 for folder '/home/fatherbad/Game/Assets/022bc9bc0be1842860a0c074f39a709e (2)' (errno = 22, Invalid argument)
+[2018.08.24-18.43.57:489][294]LogDirectoryWatcher: Warning: inotify_add_watch cannot watch folder /home/fatherbad/Game/Assets/70d89f72c1a131bdb01afe8fac8c23bf9b07fae4 (errno = 2, No such file or directory)
+[2018.08.24-18.43.57:489][294]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor -1 for folder '/home/fatherbad/Game/Assets/70d89f72c1a131bdb01afe8fac8c23bf9b07fae4' (errno = 22, Invalid argument)
+[2018.08.24-18.43.57:489][294]LogDirectoryWatcher: Warning: inotify_add_watch cannot watch folder /home/fatherbad/Game/Assets/70d89f72c1a131bdb01afe8fac8c23bf9b07fae4 (2) (errno = 2, No such file or directory)
+[2018.08.24-18.43.57:489][294]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor -1 for folder '/home/fatherbad/Game/Assets/70d89f72c1a131bdb01afe8fac8c23bf9b07fae4 (2)' (errno = 22, Invalid argument)
+[2018.08.24-18.43.57:489][294]LogDirectoryWatcher: Warning: inotify_add_watch cannot watch folder /home/fatherbad/Game/Assets/93a4ddc47ecb8c929142721a7984b39cd8517421 (errno = 2, No such file or directory)
+[2018.08.24-18.43.57:490][294]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor -1 for folder '/home/fatherbad/Game/Assets/93a4ddc47ecb8c929142721a7984b39cd8517421' (errno = 22, Invalid argument)
+[2018.08.24-18.43.57:492][294]LogDirectoryWatcher: Warning: inotify_add_watch cannot watch folder /home/fatherbad/Game/Assets/93a4ddc47ecb8c929142721a7984b39cd8517421 (2) (errno = 2, No such file or directory)
+[2018.08.24-18.43.57:492][294]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor -1 for folder '/home/fatherbad/Game/Assets/93a4ddc47ecb8c929142721a7984b39cd8517421 (2)' (errno = 22, Invalid argument)
+[2018.08.24-18.44.42:158][294]LogDirectoryWatcher: Warning: inotify_add_watch cannot watch folder /home/fatherbad/Game/Assets/70d89f72c1a131bdb01afe8fac8c23bf9b07fae4 (errno = 2, No such file or directory)
+[2018.08.24-18.44.42:158][294]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor -1 for folder '/home/fatherbad/Game/Assets/70d89f72c1a131bdb01afe8fac8c23bf9b07fae4' (errno = 22, Invalid argument)
+[2018.08.24-18.44.42:158][294]LogDirectoryWatcher: Warning: inotify_add_watch cannot watch folder /home/fatherbad/Game/Assets/70d89f72c1a131bdb01afe8fac8c23bf9b07fae4 (2) (errno = 2, No such file or directory)
+[2018.08.24-18.44.42:158][294]LogDirectoryWatcher: Error: inotify_rm_watch cannot remove descriptor -1 for folder '/home/fatherbad/Game/Assets/70d89f72c1a131bdb01afe8fac8c23bf9b07fae4 (2)' (errno = 22, Invalid argument)
+[2018.08.24-18.44.53:638][294]LogSlate: Window 'Open File' being destroyed
+[2018.08.24-18.44.53:652][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.44.53:652][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.44.53:653][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.44.53:663][294]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.24-18.44.53:681][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.44.53:691][294]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/doorway_animated.FBX)
+[2018.08.24-18.44.53:710][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/doorway_animated.FBX
+[2018.08.24-18.44.53:723][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.44.53:724][294]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.44.53:725][294]LogLinux: Scale at X=755.000000, Y=165.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.44.53:759][294]LogLinux: Scale at X=965.000000, Y=557.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.44.53:802][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.44.58:101][294]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.08.24-18.44.58:161][294]LogFbx: =================================================
+[2018.08.24-18.44.58:161][294]LogFbx: Dumping Node START [Grim_Bear_Door_Animated] 
+[2018.08.24-18.44.58:161][294]LogFbx: 	Total Deformer Count 1437426976.
+[2018.08.24-18.44.58:161][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:161][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Door_Animated (Type Mesh).
+[2018.08.24-18.44.58:161][294]LogFbx: Dumping Node END [Grim_Bear_Door_Animated]
+[2018.08.24-18.44.58:162][294]LogFbx: =================================================
+[2018.08.24-18.44.58:162][294]LogFbx: Dumping Node START [Grim_Bear_Doorhandle1_Animated] 
+[2018.08.24-18.44.58:162][294]LogFbx: 	Total Deformer Count 1435942656.
+[2018.08.24-18.44.58:162][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:162][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Doorhandle1_Animated (Type Mesh).
+[2018.08.24-18.44.58:162][294]LogFbx: Dumping Node END [Grim_Bear_Doorhandle1_Animated]
+[2018.08.24-18.44.58:162][294]LogFbx: =================================================
+[2018.08.24-18.44.58:162][294]LogFbx: Dumping Node START [Grim_Bear_Doorhandle2_Animated] 
+[2018.08.24-18.44.58:162][294]LogFbx: 	Total Deformer Count 1435942656.
+[2018.08.24-18.44.58:162][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:162][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Doorhandle2_Animated (Type Mesh).
+[2018.08.24-18.44.58:162][294]LogFbx: Dumping Node END [Grim_Bear_Doorhandle2_Animated]
+[2018.08.24-18.44.58:162][294]LogFbx: =================================================
+[2018.08.24-18.44.58:162][294]LogFbx: Dumping Node START [Grim_Bear_Arc_Doorframe] 
+[2018.08.24-18.44.58:162][294]LogFbx: 	Total Deformer Count 1437426976.
+[2018.08.24-18.44.58:162][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:162][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Arc_Doorframe (Type Mesh).
+[2018.08.24-18.44.58:163][294]LogFbx: Dumping Node END [Grim_Bear_Arc_Doorframe]
+[2018.08.24-18.44.58:163][294]LogFbx: =================================================
+[2018.08.24-18.44.58:163][294]LogFbx: Dumping Node START [Grim_Bear_Door_Animated] 
+[2018.08.24-18.44.58:163][294]LogFbx: 	Total Deformer Count 1437426976.
+[2018.08.24-18.44.58:163][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:163][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Door_Animated (Type Mesh).
+[2018.08.24-18.44.58:163][294]LogFbx: Dumping Node END [Grim_Bear_Door_Animated]
+[2018.08.24-18.44.58:163][294]LogFbx: =================================================
+[2018.08.24-18.44.58:163][294]LogFbx: Dumping Node START [Grim_Bear_Doorhandle1_Animated] 
+[2018.08.24-18.44.58:163][294]LogFbx: 	Total Deformer Count 1435919872.
+[2018.08.24-18.44.58:163][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:163][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Doorhandle1_Animated (Type Mesh).
+[2018.08.24-18.44.58:163][294]LogFbx: Dumping Node END [Grim_Bear_Doorhandle1_Animated]
+[2018.08.24-18.44.58:164][294]LogFbx: =================================================
+[2018.08.24-18.44.58:164][294]LogFbx: Dumping Node START [Grim_Bear_Doorhandle2_Animated] 
+[2018.08.24-18.44.58:164][294]LogFbx: 	Total Deformer Count 1435919872.
+[2018.08.24-18.44.58:164][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:164][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Doorhandle2_Animated (Type Mesh).
+[2018.08.24-18.44.58:164][294]LogFbx: Dumping Node END [Grim_Bear_Doorhandle2_Animated]
+[2018.08.24-18.44.58:164][294]LogFbx: =================================================
+[2018.08.24-18.44.58:164][294]LogFbx: Dumping Node START [Grim_Bear_Doorhandle1_Animated] 
+[2018.08.24-18.44.58:164][294]LogFbx: 	Total Deformer Count 1435919872.
+[2018.08.24-18.44.58:164][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:164][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Doorhandle1_Animated (Type Mesh).
+[2018.08.24-18.44.58:164][294]LogFbx: Dumping Node END [Grim_Bear_Doorhandle1_Animated]
+[2018.08.24-18.44.58:165][294]LogFbx: =================================================
+[2018.08.24-18.44.58:165][294]LogFbx: Dumping Node START [Grim_Bear_Doorhandle2_Animated] 
+[2018.08.24-18.44.58:165][294]LogFbx: 	Total Deformer Count 1435919872.
+[2018.08.24-18.44.58:165][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:165][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Doorhandle2_Animated (Type Mesh).
+[2018.08.24-18.44.58:165][294]LogFbx: Dumping Node END [Grim_Bear_Doorhandle2_Animated]
+[2018.08.24-18.44.58:165][294]LogFbx: =================================================
+[2018.08.24-18.44.58:165][294]LogFbx: Dumping Node START [Grim_Bear_Arc_Doorframe] 
+[2018.08.24-18.44.58:165][294]LogFbx: 	Total Deformer Count 1437426976.
+[2018.08.24-18.44.58:165][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.44.58:165][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Arc_Doorframe (Type Mesh).
+[2018.08.24-18.44.58:165][294]LogFbx: Dumping Node END [Grim_Bear_Arc_Doorframe]
+[2018.08.24-18.44.58:310][294]LogMaterial: Warning: Material /Game/ThirdPersonCPP/Material__511.Material__511 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.24-18.44.58:312][294]LogMaterial: Display: Missing cached shader map for material Material__511, compiling. 
+[2018.08.24-18.44.58:449][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/door_DIF'
+[2018.08.24-18.44.58:449][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/door_DIF'
+[2018.08.24-18.44.58:459][294]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.08.24-18.44.58:459][294]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.08.24-18.44.58:459][294]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.08.24-18.44.58:465][294]LogTexture: Display: Building textures: door_DIF (AutoDXT, 512X1024)
+[2018.08.24-18.44.59:864][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/door_SPEC'
+[2018.08.24-18.44.59:865][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/door_SPEC'
+[2018.08.24-18.44.59:875][294]LogTexture: Display: Building textures: door_SPEC (AutoDXT, 512X1024)
+[2018.08.24-18.45.00:932][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/door_NRM'
+[2018.08.24-18.45.00:933][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/door_NRM'
+[2018.08.24-18.45.00:951][294]LogTexture: Display: Building textures: door_NRM (BC5, 512X1024)
+[2018.08.24-18.45.01:085][294]LogMaterial: Display: Missing cached shader map for material Material__511, compiling. 
+[2018.08.24-18.45.01:156][294]LogFbx: Warning: Bones digested - 3  Depth of hierarchy - 2
+[2018.08.24-18.45.01:166][294]LogSkeletalMesh: Section 0: 180 vertices, 3 active bones
+[2018.08.24-18.45.01:166][294]LogSkeletalMesh: Section 0: Material=0, 152 triangles
+[2018.08.24-18.45.01:167][294]LogSkeletalMesh: Building Skeletal Mesh doorway_animated_Grim_Bear_Door_Animated...
+[2018.08.24-18.45.01:168][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/doorway_animated.doorway_animated_Grim_Bear_Door_Animated
+[2018.08.24-18.45.01:170][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/doorway_animated_Grim_Bear_Door_Animated_Skeleton'
+[2018.08.24-18.45.01:170][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/doorway_animated_Grim_Bear_Door_Animated_Skeleton'
+[2018.08.24-18.45.01:173][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/doorway_animated_Grim_Bear_Door_Animated_PhysicsAsset'
+[2018.08.24-18.45.01:173][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/doorway_animated_Grim_Bear_Door_Animated_PhysicsAsset'
+[2018.08.24-18.45.01:198][294]LogSkeletalMesh: Building Skeletal Mesh doorway_animated_Grim_Bear_Door_Animated...
+[2018.08.24-18.45.01:199][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/doorway_animated.doorway_animated_Grim_Bear_Door_Animated
+[2018.08.24-18.45.01:202][294]LogMaterial: Warning: Material /Game/ThirdPersonCPP/Material__509.Material__509 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.24-18.45.01:205][294]LogMaterial: Display: Missing cached shader map for material Material__509, compiling. 
+[2018.08.24-18.45.01:271][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/arc_DIF'
+[2018.08.24-18.45.01:271][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/arc_DIF'
+[2018.08.24-18.45.01:279][294]LogTexture: Display: Building textures: arc_DIF (AutoDXT, 512X1024)
+[2018.08.24-18.45.02:806][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/arc_SPEC'
+[2018.08.24-18.45.02:806][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/arc_SPEC'
+[2018.08.24-18.45.02:811][294]LogTexture: Display: Building textures: arc_SPEC (AutoDXT, 512X1024)
+[2018.08.24-18.45.04:278][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/arc_NRM'
+[2018.08.24-18.45.04:279][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/arc_NRM'
+[2018.08.24-18.45.04:285][294]LogTexture: Display: Building textures: arc_NRM (BC5, 512X1024)
+[2018.08.24-18.45.04:448][294]LogMaterial: Display: Missing cached shader map for material Material__509, compiling. 
+[2018.08.24-18.45.04:508][294]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.08.24-18.45.04:515][294]LogSkeletalMesh: Section 0: 232 vertices, 1 active bones
+[2018.08.24-18.45.04:515][294]LogSkeletalMesh: Section 0: Material=0, 192 triangles
+[2018.08.24-18.45.04:518][294]LogSkeletalMesh: Building Skeletal Mesh doorway_animated_Grim_Bear_Arc_Doorframe...
+[2018.08.24-18.45.04:520][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/doorway_animated.doorway_animated_Grim_Bear_Arc_Doorframe
+[2018.08.24-18.45.04:521][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/doorway_animated_Grim_Bear_Arc_Doorframe_Skeleton'
+[2018.08.24-18.45.04:522][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/doorway_animated_Grim_Bear_Arc_Doorframe_Skeleton'
+[2018.08.24-18.45.04:526][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/doorway_animated_Grim_Bear_Arc_Doorframe_PhysicsAsset'
+[2018.08.24-18.45.04:526][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/doorway_animated_Grim_Bear_Arc_Doorframe_PhysicsAsset'
+[2018.08.24-18.45.04:549][294]LogSkeletalMesh: Building Skeletal Mesh doorway_animated_Grim_Bear_Arc_Doorframe...
+[2018.08.24-18.45.04:549][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/doorway_animated.doorway_animated_Grim_Bear_Arc_Doorframe
+[2018.08.24-18.45.04:556][294]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.08.24-18.45.04:557][294]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.08.24-18.45.04:557][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.04:557][294]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.04:558][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.04:603][294]LogSkeletalMesh: Building Skeletal Mesh doorway_animated_Grim_Bear_Arc_Doorframe...
+[2018.08.24-18.45.04:603][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/doorway_animated.doorway_animated_Grim_Bear_Arc_Doorframe
+[2018.08.24-18.45.04:635][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/fire.tga)
+[2018.08.24-18.45.04:646][294]LogTexture: Display: Building textures: fire (AutoDXT, 512X512)
+[2018.08.24-18.45.05:654][294]LogShaderCompilers: Display: Shaders left to compile 114
+[2018.08.24-18.45.05:662][294]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/floor.FBX)
+[2018.08.24-18.45.05:676][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/floor.FBX
+[2018.08.24-18.45.05:686][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.45.05:686][294]LogFbx: =================================================
+[2018.08.24-18.45.05:686][294]LogFbx: Dumping Node START [Grim_Bear_Floor] 
+[2018.08.24-18.45.05:686][294]LogFbx: 	Total Deformer Count 1477800320.
+[2018.08.24-18.45.05:686][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.05:686][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Floor (Type Mesh).
+[2018.08.24-18.45.05:686][294]LogFbx: Dumping Node END [Grim_Bear_Floor]
+[2018.08.24-18.45.05:686][294]LogFbx: =================================================
+[2018.08.24-18.45.05:686][294]LogFbx: Dumping Node START [Grim_Bear_Floor] 
+[2018.08.24-18.45.05:686][294]LogFbx: 	Total Deformer Count 1477800320.
+[2018.08.24-18.45.05:686][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.05:686][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Floor (Type Mesh).
+[2018.08.24-18.45.05:686][294]LogFbx: Dumping Node END [Grim_Bear_Floor]
+[2018.08.24-18.45.05:689][294]LogMaterial: Warning: Material /Game/ThirdPersonCPP/Material__533.Material__533 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.24-18.45.05:693][294]LogMaterial: Display: Missing cached shader map for material Material__533, compiling. 
+[2018.08.24-18.45.05:755][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_DIF'
+[2018.08.24-18.45.05:755][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_DIF'
+[2018.08.24-18.45.05:764][294]LogTexture: Display: Building textures: floor_DIF (AutoDXT, 1024X1024)
+[2018.08.24-18.45.08:500][294]LogShaderCompilers: Display: Shaders left to compile 161
+[2018.08.24-18.45.08:501][294]LogShaderCompilers: Display: Shaders left to compile 151
+[2018.08.24-18.45.08:529][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_SPEC'
+[2018.08.24-18.45.08:529][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_SPEC'
+[2018.08.24-18.45.08:539][294]LogTexture: Display: Building textures: floor_SPEC (AutoDXT, 1024X1024)
+[2018.08.24-18.45.10:165][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_NRM'
+[2018.08.24-18.45.10:165][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_NRM'
+[2018.08.24-18.45.10:177][294]LogTexture: Display: Building textures: floor_NRM (BC5, 1024X1024)
+[2018.08.24-18.45.10:481][294]LogMaterial: Display: Missing cached shader map for material Material__533, compiling. 
+[2018.08.24-18.45.10:562][294]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.08.24-18.45.10:562][294]LogSkeletalMesh: Section 0: 4 vertices, 1 active bones
+[2018.08.24-18.45.10:562][294]LogSkeletalMesh: Section 0: Material=0, 2 triangles
+[2018.08.24-18.45.10:563][294]LogSkeletalMesh: Building Skeletal Mesh floor_Grim_Bear_Floor...
+[2018.08.24-18.45.10:563][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/floor.floor_Grim_Bear_Floor
+[2018.08.24-18.45.10:564][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_Grim_Bear_Floor_Skeleton'
+[2018.08.24-18.45.10:565][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_Grim_Bear_Floor_Skeleton'
+[2018.08.24-18.45.10:567][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_Grim_Bear_Floor_PhysicsAsset'
+[2018.08.24-18.45.10:567][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/floor_Grim_Bear_Floor_PhysicsAsset'
+[2018.08.24-18.45.10:590][294]LogSkeletalMesh: Building Skeletal Mesh floor_Grim_Bear_Floor...
+[2018.08.24-18.45.10:590][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/floor.floor_Grim_Bear_Floor
+[2018.08.24-18.45.10:596][294]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.08.24-18.45.10:600][294]LogSkeletalMesh: Building Skeletal Mesh floor_Grim_Bear_Floor...
+[2018.08.24-18.45.10:600][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/floor.floor_Grim_Bear_Floor
+[2018.08.24-18.45.10:602][294]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/floor.obj)
+[2018.08.24-18.45.10:623][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/floor.obj
+[2018.08.24-18.45.10:625][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.45.10:626][294]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.10:626][294]LogLinux: Scale at X=755.000000, Y=165.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.10:647][294]LogLinux: Scale at X=965.000000, Y=557.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.10:703][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.11:771][294]LogShaderCompilers: Display: Shaders left to compile 141
+[2018.08.24-18.45.13:841][294]LogShaderCompilers: Display: Shaders left to compile 131
+[2018.08.24-18.45.14:027][294]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.08.24-18.45.14:079][294]LogStaticMesh: Building static mesh floor...
+[2018.08.24-18.45.14:249][294]LogStaticMesh: Built static mesh [0.17s] /Game/ThirdPersonCPP/floor.floor
+[2018.08.24-18.45.14:271][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.14:272][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.14:276][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.14:327][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.14:721][294]LogShaderCompilers: Display: Shaders left to compile 121
+[2018.08.24-18.45.17:641][294]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.08.24-18.45.19:147][294]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.08.24-18.45.20:129][294]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.08.24-18.45.22:936][294]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.08.24-18.45.23:006][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.23:047][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/floor_DIF.tga)
+[2018.08.24-18.45.23:048][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.23:048][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.23:051][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.23:123][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.24:211][294]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.08.24-18.45.25:650][294]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.08.24-18.45.27:974][294]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.08.24-18.45.28:126][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.28:151][294]LogTexture: Display: Building textures: floor_DIF (AutoDXT, 1024X1024)
+[2018.08.24-18.45.30:556][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/floor_NRM.tga)
+[2018.08.24-18.45.30:560][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.30:560][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.30:561][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.30:593][294]LogTexture: Display: Building textures: floor_NRM (BC5, 1024X1024)
+[2018.08.24-18.45.30:857][294]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.08.24-18.45.30:871][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.30:898][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/floor_SPEC.tga)
+[2018.08.24-18.45.30:906][294]LogTexture: Display: Building textures: floor_SPEC (AutoDXT, 1024X1024)
+[2018.08.24-18.45.32:525][294]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.08.24-18.45.32:557][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/preview.jpg)
+[2018.08.24-18.45.32:612][294]LogTexture: Display: Building textures: preview (BGRA8, 1007X1884)
+[2018.08.24-18.45.33:375][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_DIF.tga)
+[2018.08.24-18.45.33:385][294]LogTexture: Display: Building textures: stairs_DIF (AutoDXT, 1024X512)
+[2018.08.24-18.45.34:864][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_NRM.tga)
+[2018.08.24-18.45.34:872][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.34:872][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.34:872][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.34:906][294]LogTexture: Display: Building textures: stairs_NRM (BC5, 1024X512)
+[2018.08.24-18.45.35:076][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.35:097][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_SPEC.tga)
+[2018.08.24-18.45.35:109][294]LogTexture: Display: Building textures: stairs_SPEC (AutoDXT, 1024X512)
+[2018.08.24-18.45.35:860][294]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_down.FBX)
+[2018.08.24-18.45.35:884][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_down.FBX
+[2018.08.24-18.45.35:902][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.45.35:902][294]LogFbx: =================================================
+[2018.08.24-18.45.35:902][294]LogFbx: Dumping Node START [Grim_Bear_Stairs_Down] 
+[2018.08.24-18.45.35:902][294]LogFbx: 	Total Deformer Count 1490969792.
+[2018.08.24-18.45.35:902][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.35:902][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Stairs_Down (Type Mesh).
+[2018.08.24-18.45.35:902][294]LogFbx: Dumping Node END [Grim_Bear_Stairs_Down]
+[2018.08.24-18.45.35:902][294]LogFbx: =================================================
+[2018.08.24-18.45.35:902][294]LogFbx: Dumping Node START [Grim_Bear_Stairs_Down] 
+[2018.08.24-18.45.35:902][294]LogFbx: 	Total Deformer Count 1490969792.
+[2018.08.24-18.45.35:902][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.35:902][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Stairs_Down (Type Mesh).
+[2018.08.24-18.45.35:902][294]LogFbx: Dumping Node END [Grim_Bear_Stairs_Down]
+[2018.08.24-18.45.35:902][294]LogFbx: =================================================
+[2018.08.24-18.45.35:902][294]LogFbx: Dumping Node START [Grim_Bear_Stairs_Down] 
+[2018.08.24-18.45.35:902][294]LogFbx: 	Total Deformer Count 1490969600.
+[2018.08.24-18.45.35:902][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.35:902][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Stairs_Down (Type Mesh).
+[2018.08.24-18.45.35:902][294]LogFbx: Dumping Node END [Grim_Bear_Stairs_Down]
+[2018.08.24-18.45.35:908][294]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.08.24-18.45.35:909][294]FBXImport: Error: Error, Could not import Grim_Bear_Stairs_Down.
+Duplicate bone name found ('Grim_Bear_Stairs_Down'). Each bone must have a unique name. 
+[2018.08.24-18.45.35:909][294]FBXImport: Error: Multiple roots found 
+[2018.08.24-18.45.35:909][294]FBXImport: Warning: Get Import Data has failed. 
+[2018.08.24-18.45.35:909][294]FBXImport: Error: Import failed. 
+[2018.08.24-18.45.35:911][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.35:911][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.35:914][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.35:967][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.37:455][294]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.08.24-18.45.38:186][294]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.08.24-18.45.40:196][294]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.08.24-18.45.41:814][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.41:820][294]LogAssetTools: Warning: Failed to import '/home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_down.FBX'. Failed to create asset '/Game/ThirdPersonCPP/stairs_down'.
+Please see Output Log for details.
+[2018.08.24-18.45.41:828][294]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_down.obj)
+[2018.08.24-18.45.41:843][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_down.obj
+[2018.08.24-18.45.41:858][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.45.41:866][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/wall_DIF'
+[2018.08.24-18.45.41:867][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/wall_DIF'
+[2018.08.24-18.45.41:877][294]LogTexture: Display: Building textures: wall_DIF (AutoDXT, 1024X1024)
+[2018.08.24-18.45.44:051][294]LogMaterial: Display: Missing cached shader map for material Material__506, compiling. 
+[2018.08.24-18.45.44:068][294]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.24-18.45.44:068][294]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.08.24-18.45.44:077][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/column_DIF'
+[2018.08.24-18.45.44:077][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/column_DIF'
+[2018.08.24-18.45.44:088][294]LogTexture: Display: Building textures: column_DIF (AutoDXT, 1024X1024)
+[2018.08.24-18.45.46:170][294]LogMaterial: Display: Missing cached shader map for material Material__508, compiling. 
+[2018.08.24-18.45.46:214][294]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.08.24-18.45.46:223][294]LogTexture: Display: Building textures: stairs_DIF (AutoDXT, 1024X512)
+[2018.08.24-18.45.47:469][294]LogMaterial: Display: Missing cached shader map for material Material__532, compiling. 
+[2018.08.24-18.45.47:515][294]LogStaticMesh: Building static mesh stairs_down...
+[2018.08.24-18.45.47:542][294]LogStaticMesh: Built static mesh [0.03s] /Game/ThirdPersonCPP/stairs_down.stairs_down
+[2018.08.24-18.45.47:567][294]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_up.FBX)
+[2018.08.24-18.45.47:595][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_up.FBX
+[2018.08.24-18.45.47:607][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.45.47:607][294]LogFbx: =================================================
+[2018.08.24-18.45.47:607][294]LogFbx: Dumping Node START [Grim_Bear_Stairs_Up] 
+[2018.08.24-18.45.47:607][294]LogFbx: 	Total Deformer Count 1484136768.
+[2018.08.24-18.45.47:607][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.47:607][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Stairs_Up (Type Mesh).
+[2018.08.24-18.45.47:607][294]LogFbx: Dumping Node END [Grim_Bear_Stairs_Up]
+[2018.08.24-18.45.47:608][294]LogFbx: =================================================
+[2018.08.24-18.45.47:608][294]LogFbx: Dumping Node START [Grim_Bear_Stairs_Up] 
+[2018.08.24-18.45.47:608][294]LogFbx: 	Total Deformer Count 1484136768.
+[2018.08.24-18.45.47:608][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.47:608][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Stairs_Up (Type Mesh).
+[2018.08.24-18.45.47:608][294]LogFbx: Dumping Node END [Grim_Bear_Stairs_Up]
+[2018.08.24-18.45.47:613][294]LogMaterial: Warning: Material /Game/ThirdPersonCPP/Material__364.Material__364 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.24-18.45.47:616][294]LogMaterial: Display: Missing cached shader map for material Material__364, compiling. 
+[2018.08.24-18.45.47:687][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/wall_corner'
+[2018.08.24-18.45.47:687][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/wall_corner'
+[2018.08.24-18.45.47:688][294]LogFbxMaterialImport: Warning: Unable to find Texture file G:\3d\Modular castle\dungeoni\stairs_up_UDK.fbm\wall_corner.psd
+[2018.08.24-18.45.47:693][294]LogMaterial: Display: Missing cached shader map for material Material__364, compiling. 
+[2018.08.24-18.45.47:761][294]LogMaterial: Warning: Material /Game/ThirdPersonCPP/Material__441.Material__441 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.24-18.45.47:764][294]LogMaterial: Display: Missing cached shader map for material Material__441, compiling. 
+[2018.08.24-18.45.47:838][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/stairs'
+[2018.08.24-18.45.47:838][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/stairs'
+[2018.08.24-18.45.47:839][294]LogFbxMaterialImport: Warning: Unable to find Texture file G:\3d\Modular castle\dungeoni\_TEX\stairs.psd
+[2018.08.24-18.45.47:844][294]LogMaterial: Display: Missing cached shader map for material Material__441, compiling. 
+[2018.08.24-18.45.47:915][294]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.08.24-18.45.47:917][294]LogSkeletalMesh: Section 0: 48 vertices, 1 active bones
+[2018.08.24-18.45.47:917][294]LogSkeletalMesh: Section 1: 52 vertices, 1 active bones
+[2018.08.24-18.45.47:917][294]LogSkeletalMesh: Section 0: Material=0, 76 triangles
+[2018.08.24-18.45.47:917][294]LogSkeletalMesh: Section 1: Material=1, 34 triangles
+[2018.08.24-18.45.47:918][294]LogSkeletalMesh: Building Skeletal Mesh stairs_up...
+[2018.08.24-18.45.47:918][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/stairs_up.stairs_up
+[2018.08.24-18.45.47:919][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.47:919][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.47:922][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.47:986][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.50:173][294]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.08.24-18.45.50:681][294]LogShaderCompilers: Display: Shaders left to compile 132
+[2018.08.24-18.45.51:890][294]LogShaderCompilers: Display: Shaders left to compile 122
+[2018.08.24-18.45.52:920][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.52:937][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.52:939][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.52:945][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.53:020][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.54:556][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.54:568][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.54:569][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.54:575][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.54:630][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.55:548][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.55:560][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.55:560][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.55:561][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.55:586][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/stairs_up_PhysicsAsset'
+[2018.08.24-18.45.55:586][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/stairs_up_PhysicsAsset'
+[2018.08.24-18.45.55:623][294]LogSkeletalMesh: Building Skeletal Mesh stairs_up...
+[2018.08.24-18.45.55:624][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/stairs_up.stairs_up
+[2018.08.24-18.45.55:631][294]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.08.24-18.45.55:633][294]LogSkeletalMesh: Building Skeletal Mesh stairs_up...
+[2018.08.24-18.45.55:637][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/stairs_up.stairs_up
+[2018.08.24-18.45.55:644][294]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_up.obj)
+[2018.08.24-18.45.55:661][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/stairs_up.obj
+[2018.08.24-18.45.55:665][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.45.55:679][294]LogStaticMesh: Building static mesh stairs_up_0...
+[2018.08.24-18.45.55:690][294]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonCPP/stairs_up_0.stairs_up_0
+[2018.08.24-18.45.55:719][294]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/torch.FBX)
+[2018.08.24-18.45.55:736][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/torch.FBX
+[2018.08.24-18.45.55:747][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.45.55:748][294]LogFbx: =================================================
+[2018.08.24-18.45.55:748][294]LogFbx: Dumping Node START [Grim_Bear_Torch] 
+[2018.08.24-18.45.55:748][294]LogFbx: 	Total Deformer Count 1538609408.
+[2018.08.24-18.45.55:748][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.55:748][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Torch (Type Mesh).
+[2018.08.24-18.45.55:748][294]LogFbx: Dumping Node END [Grim_Bear_Torch]
+[2018.08.24-18.45.55:748][294]LogFbx: =================================================
+[2018.08.24-18.45.55:748][294]LogFbx: Dumping Node START [Grim_Bear_Torch] 
+[2018.08.24-18.45.55:748][294]LogFbx: 	Total Deformer Count 1538609408.
+[2018.08.24-18.45.55:748][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.45.55:748][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Torch (Type Mesh).
+[2018.08.24-18.45.55:748][294]LogFbx: Dumping Node END [Grim_Bear_Torch]
+[2018.08.24-18.45.55:751][294]LogMaterial: Warning: Material /Game/ThirdPersonCPP/Material__640.Material__640 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.24-18.45.55:755][294]LogMaterial: Display: Missing cached shader map for material Material__640, compiling. 
+[2018.08.24-18.45.55:821][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/torch_DIF'
+[2018.08.24-18.45.55:821][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/torch_DIF'
+[2018.08.24-18.45.55:829][294]LogTexture: Display: Building textures: torch_DIF (AutoDXT, 128X128)
+[2018.08.24-18.45.55:875][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/torch_SPEC'
+[2018.08.24-18.45.55:876][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/torch_SPEC'
+[2018.08.24-18.45.55:880][294]LogTexture: Display: Building textures: torch_SPEC (AutoDXT, 128X128)
+[2018.08.24-18.45.55:926][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/torch_NRM'
+[2018.08.24-18.45.55:926][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/torch_NRM'
+[2018.08.24-18.45.55:931][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.55:936][294]LogTexture: Display: Building textures: torch_NRM (BC5, 128X128)
+[2018.08.24-18.45.55:949][294]LogMaterial: Display: Missing cached shader map for material Material__640, compiling. 
+[2018.08.24-18.45.56:014][294]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.08.24-18.45.56:017][294]LogSkeletalMesh: Section 0: 199 vertices, 1 active bones
+[2018.08.24-18.45.56:017][294]LogSkeletalMesh: Section 0: Material=0, 156 triangles
+[2018.08.24-18.45.56:017][294]LogSkeletalMesh: Building Skeletal Mesh torch...
+[2018.08.24-18.45.56:018][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/torch.torch
+[2018.08.24-18.45.56:019][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.56:019][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.56:022][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.56:094][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.56:435][294]LogShaderCompilers: Display: Shaders left to compile 169
+[2018.08.24-18.45.56:469][294]LogShaderCompilers: Display: Shaders left to compile 159
+[2018.08.24-18.45.57:549][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.57:573][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.57:573][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.57:582][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.57:642][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.58:762][294]LogShaderCompilers: Display: Shaders left to compile 149
+[2018.08.24-18.45.58:852][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.58:861][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.58:861][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.58:872][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.58:937][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.45.59:733][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.45.59:747][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.59:748][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.59:750][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.45.59:799][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.00:922][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.46.00:931][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.00:931][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.00:932][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.00:974][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/torch_PhysicsAsset'
+[2018.08.24-18.46.00:976][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/torch_PhysicsAsset'
+[2018.08.24-18.46.01:000][294]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.08.24-18.46.01:025][294]LogSkeletalMesh: Building Skeletal Mesh torch...
+[2018.08.24-18.46.01:025][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/torch.torch
+[2018.08.24-18.46.01:031][294]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.08.24-18.46.01:034][294]LogSkeletalMesh: Building Skeletal Mesh torch...
+[2018.08.24-18.46.01:036][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/torch.torch
+[2018.08.24-18.46.01:038][294]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/torch.obj)
+[2018.08.24-18.46.01:057][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/torch.obj
+[2018.08.24-18.46.01:063][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.46.01:073][294]LogStaticMesh: Building static mesh torch_0...
+[2018.08.24-18.46.01:086][294]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonCPP/torch_0.torch_0
+[2018.08.24-18.46.01:113][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/torch_DIF.tga)
+[2018.08.24-18.46.01:118][294]LogTexture: Display: Building textures: torch_DIF (AutoDXT, 128X128)
+[2018.08.24-18.46.01:173][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.01:184][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/torch_NRM.tga)
+[2018.08.24-18.46.01:196][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.01:196][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.01:196][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.01:229][294]LogTexture: Display: Building textures: torch_NRM (BC5, 128X128)
+[2018.08.24-18.46.01:261][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/torch_SPEC.tga)
+[2018.08.24-18.46.01:268][294]LogTexture: Display: Building textures: torch_SPEC (AutoDXT, 128X128)
+[2018.08.24-18.46.01:333][294]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall.FBX)
+[2018.08.24-18.46.01:360][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall.FBX
+[2018.08.24-18.46.01:371][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.46.01:372][294]LogFbx: =================================================
+[2018.08.24-18.46.01:372][294]LogFbx: Dumping Node START [Grim_Bear_Wall] 
+[2018.08.24-18.46.01:372][294]LogFbx: 	Total Deformer Count 1557596928.
+[2018.08.24-18.46.01:372][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.46.01:372][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Wall (Type Mesh).
+[2018.08.24-18.46.01:372][294]LogFbx: Dumping Node END [Grim_Bear_Wall]
+[2018.08.24-18.46.01:372][294]LogFbx: =================================================
+[2018.08.24-18.46.01:372][294]LogFbx: Dumping Node START [Grim_Bear_Wall] 
+[2018.08.24-18.46.01:372][294]LogFbx: 	Total Deformer Count 1557596928.
+[2018.08.24-18.46.01:373][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.46.01:373][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Wall (Type Mesh).
+[2018.08.24-18.46.01:373][294]LogFbx: Dumping Node END [Grim_Bear_Wall]
+[2018.08.24-18.46.01:376][294]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.08.24-18.46.01:377][294]LogSkeletalMesh: Section 0: 44 vertices, 1 active bones
+[2018.08.24-18.46.01:378][294]LogSkeletalMesh: Section 0: Material=0, 50 triangles
+[2018.08.24-18.46.01:378][294]LogSkeletalMesh: Building Skeletal Mesh wall...
+[2018.08.24-18.46.01:380][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/wall.wall
+[2018.08.24-18.46.01:381][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.01:381][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.01:384][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.01:452][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.01:484][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.02:691][294]LogShaderCompilers: Display: Shaders left to compile 139
+[2018.08.24-18.46.02:884][294]LogShaderCompilers: Display: Shaders left to compile 129
+[2018.08.24-18.46.06:606][294]LogShaderCompilers: Display: Shaders left to compile 119
+[2018.08.24-18.46.08:736][294]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.08.24-18.46.09:277][294]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.08.24-18.46.09:601][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.46.09:615][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.09:615][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.09:618][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.09:670][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.10:790][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.46.10:802][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.10:802][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.10:804][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.10:858][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.11:835][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.46.11:848][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.11:848][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.11:854][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.11:909][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.12:351][294]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.08.24-18.46.13:154][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.46.13:168][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.13:169][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.13:176][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.13:225][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.14:676][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.46.14:688][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.14:689][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.14:689][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.14:721][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/wall_PhysicsAsset'
+[2018.08.24-18.46.14:722][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/wall_PhysicsAsset'
+[2018.08.24-18.46.14:752][294]LogMaterial: Warning: Material /Game/ThirdPersonCPP/Material__506.Material__506 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.08.24-18.46.14:761][294]LogMaterial: Display: Missing cached shader map for material Material__506, compiling. 
+[2018.08.24-18.46.14:829][294]LogSkeletalMesh: Building Skeletal Mesh wall...
+[2018.08.24-18.46.14:831][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/wall.wall
+[2018.08.24-18.46.14:842][294]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.08.24-18.46.14:843][294]LogSkeletalMesh: Building Skeletal Mesh wall...
+[2018.08.24-18.46.14:845][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/wall.wall
+[2018.08.24-18.46.14:850][294]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall.obj)
+[2018.08.24-18.46.14:872][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall.obj
+[2018.08.24-18.46.14:874][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.46.14:882][294]LogStaticMesh: Building static mesh wall_0...
+[2018.08.24-18.46.14:888][294]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonCPP/wall_0.wall_0
+[2018.08.24-18.46.14:915][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.14:930][294]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall_2sided.FBX)
+[2018.08.24-18.46.14:956][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall_2sided.FBX
+[2018.08.24-18.46.14:969][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.46.14:970][294]LogFbx: =================================================
+[2018.08.24-18.46.14:970][294]LogFbx: Dumping Node START [Grim_Bear_Wall_2sided] 
+[2018.08.24-18.46.14:970][294]LogFbx: 	Total Deformer Count 1556420864.
+[2018.08.24-18.46.14:970][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.46.14:970][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Wall_2sided (Type Mesh).
+[2018.08.24-18.46.14:970][294]LogFbx: Dumping Node END [Grim_Bear_Wall_2sided]
+[2018.08.24-18.46.14:970][294]LogFbx: =================================================
+[2018.08.24-18.46.14:970][294]LogFbx: Dumping Node START [Grim_Bear_Wall_2sided] 
+[2018.08.24-18.46.14:970][294]LogFbx: 	Total Deformer Count 1556420864.
+[2018.08.24-18.46.14:970][294]LogFbx: 	Attribute () Type (4).
+[2018.08.24-18.46.14:970][294]LogFbx: 		[Node Attribute Child 1] Grim_Bear_Wall_2sided (Type Mesh).
+[2018.08.24-18.46.14:970][294]LogFbx: Dumping Node END [Grim_Bear_Wall_2sided]
+[2018.08.24-18.46.14:974][294]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.08.24-18.46.14:975][294]LogSkeletalMesh: Section 0: 78 vertices, 1 active bones
+[2018.08.24-18.46.14:975][294]LogSkeletalMesh: Section 0: Material=0, 84 triangles
+[2018.08.24-18.46.14:976][294]LogSkeletalMesh: Building Skeletal Mesh wall_2sided...
+[2018.08.24-18.46.14:977][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/wall_2sided.wall_2sided
+[2018.08.24-18.46.14:978][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.14:979][294]LogLinux: Scale at X=955.000000, Y=523.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.14:981][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.15:046][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.15:584][294]LogShaderCompilers: Display: Shaders left to compile 136
+[2018.08.24-18.46.15:690][294]LogShaderCompilers: Display: Shaders left to compile 126
+[2018.08.24-18.46.17:928][294]LogSlate: Window 'Message' being destroyed
+[2018.08.24-18.46.17:951][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/wall_2sided_PhysicsAsset'
+[2018.08.24-18.46.17:951][294]LogLinker: Can't find file '/Game/ThirdPersonCPP/wall_2sided_PhysicsAsset'
+[2018.08.24-18.46.17:981][294]LogSkeletalMesh: Building Skeletal Mesh wall_2sided...
+[2018.08.24-18.46.17:981][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/wall_2sided.wall_2sided
+[2018.08.24-18.46.17:986][294]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.08.24-18.46.17:989][294]LogSkeletalMesh: Building Skeletal Mesh wall_2sided...
+[2018.08.24-18.46.17:989][294]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonCPP/wall_2sided.wall_2sided
+[2018.08.24-18.46.17:993][294]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall_2sided.obj)
+[2018.08.24-18.46.18:014][294]LogFbx: Loading FBX Scene from /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall_2sided.obj
+[2018.08.24-18.46.18:018][294]LogFbx: FBX Scene Loaded Succesfully
+[2018.08.24-18.46.18:028][294]LogStaticMesh: Building static mesh wall_2sided_0...
+[2018.08.24-18.46.18:035][294]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonCPP/wall_2sided_0.wall_2sided_0
+[2018.08.24-18.46.18:078][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall_DIF.tga)
+[2018.08.24-18.46.18:089][294]LogTexture: Display: Building textures: wall_DIF (AutoDXT, 1024X1024)
+[2018.08.24-18.46.20:285][294]LogShaderCompilers: Display: Shaders left to compile 116
+[2018.08.24-18.46.20:313][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall_NRM.tga)
+[2018.08.24-18.46.20:319][294]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.20:319][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.20:319][294]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.20:373][294]LogTexture: Display: Building textures: wall_NRM (BC5, 1024X1024)
+[2018.08.24-18.46.20:727][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.20:757][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 /home/fatherbad/Game/Assets/Grim Bear top down dungeon building set - Volume 1/wall_SPEC.tga)
+[2018.08.24-18.46.20:768][294]LogTexture: Display: Building textures: wall_SPEC (AutoDXT, 1024X1024)
+[2018.08.24-18.46.21:624][294]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.21:782][296]LogShaderCompilers: Display: Shaders left to compile 106
+[2018.08.24-18.46.22:515][297]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.22:516][297]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.22:516][297]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.22:749][298]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.26:023][346]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.08.24-18.46.26:684][362]LogLinux: Scale at X=455.000000, Y=235.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.26:685][362]LogSlate: Window 'Message Log' being destroyed
+[2018.08.24-18.46.26:707][362]LogSlate: Window 'Message Log' being destroyed
+[2018.08.24-18.46.32:363][455]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.08.24-18.46.37:062][527]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.37:062][527]LogLinux: Scale at X=555.000000, Y=273.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.37:068][527]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.46.37:153][527]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.46.39:620][527]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.08.24-18.46.39:722][527]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.08.24-18.46.43:760][527]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.08.24-18.46.45:692][527]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.08.24-18.46.46:758][527]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.08.24-18.46.49:623][527]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.08.24-18.46.52:528][527]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.08.24-18.46.53:720][527]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.08.24-18.47.12:180][527]LogSlate: Window 'Open File' being destroyed
+[2018.08.24-18.47.16:077][585]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.47.16:077][585]LogLinux: Scale at X=555.000000, Y=273.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.47.16:083][585]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.47.16:146][585]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.53.14:323][585]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.14:323][585]LogLinux: Scale at X=655.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.14:324][585]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.14:353][585]LogSlate: Window 'Save Content' being destroyed
+[2018.08.24-18.53.14:357][585]LogSlate: Window 'Open File' being destroyed
+[2018.08.24-18.53.19:415][827]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.19:415][827]LogLinux: Scale at X=655.000000, Y=323.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.19:415][827]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.19:487][827]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.53.23:141][827]LogSlate: Window 'Save Content' being destroyed
+[2018.08.24-18.53.23:158][827]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.23:158][827]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.23:159][827]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.23:177][827]LogLinux: Setting swap interval to 'Immediate'
+[2018.08.24-18.53.23:214][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/arc_DIF" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/arc_DIF.uasset" SILENT=true
+[2018.08.24-18.53.23:399][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/arc_DIF1617BDBA08D609B831B803B87A979085.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/arc_DIF.uasset'
+[2018.08.24-18.53.23:413][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/arc_NRM" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/arc_NRM.uasset" SILENT=true
+[2018.08.24-18.53.23:618][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/arc_NRM161A502908D609B831D678707A9A9C30.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/arc_NRM.uasset'
+[2018.08.24-18.53.23:632][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/arc_SPEC" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/arc_SPEC.uasset" SILENT=true
+[2018.08.24-18.53.23:810][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/arc_SPEC161D807B08D609B831F7E7807A9DF418.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/arc_SPEC.uasset'
+[2018.08.24-18.53.23:841][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/column_DIF" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/column_DIF.uasset" SILENT=true
+[2018.08.24-18.53.24:164][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/column_DIF1620756D08D609B83217C9E27AA12455.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/column_DIF.uasset'
+[2018.08.24-18.53.24:182][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/door_DIF" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/door_DIF.uasset" SILENT=true
+[2018.08.24-18.53.24:344][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/door_DIF1623205F08D609B8324BD4C67AA6589E.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/door_DIF.uasset'
+[2018.08.24-18.53.24:358][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/door_NRM" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/door_NRM.uasset" SILENT=true
+[2018.08.24-18.53.24:522][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/door_NRM1626D79708D609B83266B9B27AA9091B.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/door_NRM.uasset'
+[2018.08.24-18.53.24:535][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/door_SPEC" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/door_SPEC.uasset" SILENT=true
+[2018.08.24-18.53.24:673][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/door_SPEC16299B0308D609B83281B28A7AABBB96.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/door_SPEC.uasset'
+[2018.08.24-18.53.24:744][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/doorway_animated" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/doorway_animated.uasset" SILENT=true
+[2018.08.24-18.53.24:784][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/doorway_animated162CF5CD08D609B832A181E67AAEE9EB.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/doorway_animated.uasset'
+[2018.08.24-18.53.24:856][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/doorway_animated_Grim_Bear_Arc_D162FCD4708D609B832AFB25C7AB0552A.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/doorway_animated_Grim_Bear_Arc_Doorframe_PhysicsAsset.uasset'
+[2018.08.24-18.53.24:864][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/doorway_animated_Grim_Bear_Arc_D1632ED3208D609B832B38FE47AB0B81F.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/doorway_animated_Grim_Bear_Arc_Doorframe_Skeleton.uasset'
+[2018.08.24-18.53.24:915][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/doorway_animated_Grim_Bear_Door_16352D3D08D609B832B90E067AB144BB.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/doorway_animated_Grim_Bear_Door_Animated_PhysicsAsset.uasset'
+[2018.08.24-18.53.24:922][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/doorway_animated_Grim_Bear_Door_163876A608D609B832BC8B3A7AB19E0E.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/doorway_animated_Grim_Bear_Door_Animated_Skeleton.uasset'
+[2018.08.24-18.53.24:949][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/fire" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/fire.uasset" SILENT=true
+[2018.08.24-18.53.25:082][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/fire163B904E08D609B832C0C3447AB20A0E.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/fire.uasset'
+[2018.08.24-18.53.25:159][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/floor" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/floor.uasset" SILENT=true
+[2018.08.24-18.53.25:214][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/floor163EEFC508D609B832E0D1F27AB53EB9.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/floor.uasset'
+[2018.08.24-18.53.25:241][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/floor_DIF" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_DIF.uasset" SILENT=true
+[2018.08.24-18.53.25:638][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/floor_DIF164170A808D609B832ED59367AB67F73.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_DIF.uasset'
+[2018.08.24-18.53.25:685][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/floor_Grim_Bear_Floor_PhysicsAsset" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_Grim_Bear_Floor_PhysicsAsset.uasset" SILENT=true
+[2018.08.24-18.53.25:709][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/floor_Grim_Bear_Floor_PhysicsAss16448EAF08D609B83331328C7ABD4860.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_Grim_Bear_Floor_PhysicsAsset.uasset'
+[2018.08.24-18.53.25:713][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/floor_Grim_Bear_Floor_Skeleton" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_Grim_Bear_Floor_Skeleton.uasset" SILENT=true
+[2018.08.24-18.53.25:715][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/floor_Grim_Bear_Floor_Skeleton16473A0F08D609B8333574FA7ABDB56B.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_Grim_Bear_Floor_Skeleton.uasset'
+[2018.08.24-18.53.25:741][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/floor_NRM" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_NRM.uasset" SILENT=true
+[2018.08.24-18.53.26:183][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/floor_NRM164AB73108D609B83339C2807ABE2391.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_NRM.uasset'
+[2018.08.24-18.53.26:208][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/floor_SPEC" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_SPEC.uasset" SILENT=true
+[2018.08.24-18.53.26:574][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/floor_SPEC164DB23D08D609B833822F5C7AC561A7.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/floor_SPEC.uasset'
+[2018.08.24-18.53.26:620][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__364" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__364.uasset" SILENT=true
+[2018.08.24-18.53.26:649][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__36416505C7908D609B833BFC36C7ACB8A0D.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__364.uasset'
+[2018.08.24-18.53.26:693][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__441" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__441.uasset" SILENT=true
+[2018.08.24-18.53.26:715][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__4411653AC6F08D609B833CAE2BA7ACCA6C8.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__441.uasset'
+[2018.08.24-18.53.26:758][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__506" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__506.uasset" SILENT=true
+[2018.08.24-18.53.26:786][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__5061656425408D609B833D4DEE67ACDA665.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__506.uasset'
+[2018.08.24-18.53.26:835][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__508" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__508.uasset" SILENT=true
+[2018.08.24-18.53.26:862][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__5081659B59B08D609B833E094B67ACED22E.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__508.uasset'
+[2018.08.24-18.53.26:905][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__509" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__509.uasset" SILENT=true
+[2018.08.24-18.53.26:940][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__509165CE2FB08D609B833EB4F967ACFE4DD.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__509.uasset'
+[2018.08.24-18.53.26:987][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__511" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__511.uasset" SILENT=true
+[2018.08.24-18.53.27:015][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__511165F8B9308D609B833F7BCEA7AD122FF.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__511.uasset'
+[2018.08.24-18.53.27:058][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__532" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__532.uasset" SILENT=true
+[2018.08.24-18.53.27:092][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__5321662361F08D609B83402A5387AD23A3A.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__532.uasset'
+[2018.08.24-18.53.27:136][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__533" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__533.uasset" SILENT=true
+[2018.08.24-18.53.27:172][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__533166593E808D609B8340E881C7AD36A84.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__533.uasset'
+[2018.08.24-18.53.27:213][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Material__640" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__640.uasset" SILENT=true
+[2018.08.24-18.53.27:239][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/Material__6401668FF1208D609B8341A4C927AD497C2.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/Material__640.uasset'
+[2018.08.24-18.53.27:256][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/preview" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/preview.uasset" SILENT=true
+[2018.08.24-18.53.27:747][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/preview166B415808D609B83420C4A07AD53D5D.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/preview.uasset'
+[2018.08.24-18.53.27:762][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/stairs_DIF" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_DIF.uasset" SILENT=true
+[2018.08.24-18.53.27:944][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/stairs_DIF166E288308D609B8346E0D3C7ADCF7D1.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_DIF.uasset'
+[2018.08.24-18.53.27:991][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/stairs_down" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_down.uasset" SILENT=true
+[2018.08.24-18.53.28:021][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/stairs_down1671E86308D609B8349105EE7AE07716.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_down.uasset'
+[2018.08.24-18.53.28:039][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/stairs_NRM" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_NRM.uasset" SILENT=true
+[2018.08.24-18.53.28:292][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/stairs_NRM16749CB808D609B8349840D47AE1302C.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_NRM.uasset'
+[2018.08.24-18.53.28:304][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/stairs_SPEC" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_SPEC.uasset" SILENT=true
+[2018.08.24-18.53.28:439][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/stairs_SPEC16778B9208D609B834C0AD587AE53B06.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_SPEC.uasset'
+[2018.08.24-18.53.28:481][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/stairs_up" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_up.uasset" SILENT=true
+[2018.08.24-18.53.28:510][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/stairs_up167A9AFC08D609B834DBCBD87AE7F145.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_up.uasset'
+[2018.08.24-18.53.28:552][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/stairs_up_0" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_up_0.uasset" SILENT=true
+[2018.08.24-18.53.28:580][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/stairs_up_0167DA3C108D609B834E6A1C07AE906A9.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_up_0.uasset'
+[2018.08.24-18.53.28:623][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/stairs_up_PhysicsAsset" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_up_PhysicsAsset.uasset" SILENT=true
+[2018.08.24-18.53.28:650][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/stairs_up_PhysicsAsset1680555808D609B834F16BAA7AEA1ADA.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/stairs_up_PhysicsAsset.uasset'
+[2018.08.24-18.53.28:698][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/torch" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/torch.uasset" SILENT=true
+[2018.08.24-18.53.28:725][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/torch16831C1508D609B834FCE6EC7AEB40C6.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/torch.uasset'
+[2018.08.24-18.53.28:767][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/torch_0" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_0.uasset" SILENT=true
+[2018.08.24-18.53.28:796][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/torch_01686BC1508D609B83507717A7AEC4EA1.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_0.uasset'
+[2018.08.24-18.53.28:806][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/torch_DIF" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_DIF.uasset" SILENT=true
+[2018.08.24-18.53.28:817][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/torch_DIF16895C8C08D609B8350D595A7AECE5D1.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_DIF.uasset'
+[2018.08.24-18.53.28:828][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/torch_NRM" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_NRM.uasset" SILENT=true
+[2018.08.24-18.53.28:841][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/torch_NRM168C3EF208D609B83510B7587AED3C04.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_NRM.uasset'
+[2018.08.24-18.53.28:881][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/torch_PhysicsAsset" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_PhysicsAsset.uasset" SILENT=true
+[2018.08.24-18.53.28:902][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/torch_PhysicsAsset168FA91E08D609B83518D7C67AEE0C10.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_PhysicsAsset.uasset'
+[2018.08.24-18.53.28:912][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/torch_SPEC" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_SPEC.uasset" SILENT=true
+[2018.08.24-18.53.28:923][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/torch_SPEC1692085308D609B8351D82627AEE8385.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/torch_SPEC.uasset'
+[2018.08.24-18.53.28:964][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall.uasset" SILENT=true
+[2018.08.24-18.53.28:987][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall169516A808D609B835257A587AEF4F84.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall.uasset'
+[2018.08.24-18.53.29:032][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall_0" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_0.uasset" SILENT=true
+[2018.08.24-18.53.29:054][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall_0169890C208D609B8352FE7E07AF05A78.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_0.uasset'
+[2018.08.24-18.53.29:100][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall_2sided" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_2sided.uasset" SILENT=true
+[2018.08.24-18.53.29:123][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall_2sided169B375508D609B8353A354C7AF16236.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_2sided.uasset'
+[2018.08.24-18.53.29:169][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall_2sided_0" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_2sided_0.uasset" SILENT=true
+[2018.08.24-18.53.29:191][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall_2sided_0169E83C008D609B83544BE687AF26FEB.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_2sided_0.uasset'
+[2018.08.24-18.53.29:238][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall_2sided_PhysicsAsset" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_2sided_PhysicsAsset.uasset" SILENT=true
+[2018.08.24-18.53.29:261][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall_2sided_PhysicsAsset16A186D408D609B8354F545E7AF37EEA.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_2sided_PhysicsAsset.uasset'
+[2018.08.24-18.53.29:292][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall_DIF" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_DIF.uasset" SILENT=true
+[2018.08.24-18.53.29:648][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall_DIF16A4055C08D609B83557825A7AF45050.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_DIF.uasset'
+[2018.08.24-18.53.29:672][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall_NRM" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_NRM.uasset" SILENT=true
+[2018.08.24-18.53.30:093][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall_NRM16A774FE08D609B8359191487AFA1E9A.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_NRM.uasset'
+[2018.08.24-18.53.30:134][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall_PhysicsAsset" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_PhysicsAsset.uasset" SILENT=true
+[2018.08.24-18.53.30:156][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall_PhysicsAsset16AAE12408D609B835D7FAE87B012928.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_PhysicsAsset.uasset'
+[2018.08.24-18.53.30:169][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/wall_SPEC" FILE="../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_SPEC.uasset" SILENT=true
+[2018.08.24-18.53.30:404][827]LogSavePackage: Moving '../../../../Projects/Truvane/Saved/wall_SPEC16ADE06D08D609B835DD42787B01B051.tmp' to '../../../../Projects/Truvane/Content/ThirdPersonCPP/wall_SPEC.uasset'
+[2018.08.24-18.53.30:409][827]LogLinux: Scale at X=61.000000, Y=310.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2018.08.24-18.53.30:442][827]LogSlate: Window 'Truvane - Unreal Editor' being destroyed
+[2018.08.24-18.53.30:553][828]Cmd: QUIT_EDITOR
+[2018.08.24-18.53.30:604][828]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.08.24-18.53.30:604][828]LogExit: Preparing to exit.
+[2018.08.24-18.53.30:963][828]LogExit: Editor shut down
+[2018.08.24-18.53.30:963][828]LogExit: Transaction tracking system shut down
+[2018.08.24-18.53.31:088][828]LogExit: Object subsystem successfully closed.
+[2018.08.24-18.53.31:098][828]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.08.24-18.53.31:273][828]LogModuleManager: Shutting down and abandoning module MeshBuilder (536)
+[2018.08.24-18.53.31:273][828]LogModuleManager: Shutting down and abandoning module SlateFileDialogs (534)
+[2018.08.24-18.53.31:273][828]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.08.24-18.53.31:273][828]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.08.24-18.53.31:273][828]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (500)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module SequenceRecorder (498)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module CharacterAI (494)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2018.08.24-18.53.31:274][828]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module MaterialEditor (490)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (480)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (478)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (472)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (470)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (468)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (466)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (455)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.08.24-18.53.31:275][828]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.08.24-18.53.31:447][828]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.08.24-18.53.31:447][828]LogModuleManager: Shutting down and abandoning module LinuxPlatformEditor (440)
+[2018.08.24-18.53.31:447][828]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.08.24-18.53.31:447][828]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.08.24-18.53.31:447][828]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.08.24-18.53.31:447][828]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (432)
+[2018.08.24-18.53.31:447][828]LogModuleManager: Shutting down and abandoning module LocalizationService (431)
+[2018.08.24-18.53.31:447][828]LogModuleManager: Shutting down and abandoning module HardwareTargeting (428)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (426)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module UndoHistory (424)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module XmlParser (422)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module Blutility (420)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (418)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (417)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (414)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module SettingsEditor (412)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module ProjectLauncher (410)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module SessionFrontend (408)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module ProfilerClient (406)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module DeviceManager (404)
+[2018.08.24-18.53.31:448][828]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (403)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module AutomationController (400)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module AutomationWindow (398)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module Layers (396)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (394)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module DetailCustomizations (392)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module PackagesDialog (390)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module Persona (388)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (387)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module AnimGraph (385)
+[2018.08.24-18.53.31:489][828]LogModuleManager: Shutting down and abandoning module Kismet (382)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module GraphEditor (380)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module ClassViewer (378)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module Toolbox (376)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module DesktopPlatform (375)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (358)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module LauncherPlatform (356)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module AnalyticsET (354)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module PortalServices (352)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module PortalRpc (350)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module MessagingRpc (348)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module AIModule (346)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module GameplayDebugger (345)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module AITestSuite (343)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module NavigationSystem (341)
+[2018.08.24-18.53.31:490][828]LogModuleManager: Shutting down and abandoning module ProfilerService (338)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module TaskGraph (336)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module AppleVisionBlueprintSupport (330)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module AppleVision (328)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (326)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (325)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module GeometryCache (322)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (321)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module BackChannel (318)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (316)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module AppleImageUtils (314)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (312)
+[2018.08.24-18.53.31:694][828]LogModuleManager: Shutting down and abandoning module DatasmithContent (310)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (308)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (306)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (304)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module CodeLiteSourceCodeAccess (302)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (298)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (292)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.08.24-18.53.31:695][828]LogModuleManager: Shutting down and abandoning module ImgMedia (286)
+[2018.08.24-18.53.31:696][828]LogModuleManager: Shutting down and abandoning module Media (285)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (282)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module MediaCompositing (280)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module LinearTimecode (278)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module PluginBrowser (276)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module PolygonModeling (274)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module MeshEditor (272)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (270)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module CryptoKeys (268)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (266)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module AndroidPermission (262)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (260)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (258)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (256)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module EditableMesh (254)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module SteamVRController (252)
+[2018.08.24-18.53.31:701][828]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (250)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (248)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module CableComponent (246)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (244)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (242)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module Paper2DEditor (240)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module MeshPaint (239)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (236)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module Truvane (234)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module AISupportModule (232)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module ActorSequence (230)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (228)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (226)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module FacialAnimation (224)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (222)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module TreeMap (221)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (218)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module DataValidation (216)
+[2018.08.24-18.53.31:702][828]LogModuleManager: Shutting down and abandoning module LevelEditor (215)
+[2018.08.24-18.53.31:703][828]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (214)
+[2018.08.24-18.53.31:703][828]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (212)
+[2018.08.24-18.53.31:703][828]LogModuleManager: Shutting down and abandoning module MainFrame (210)
+[2018.08.24-18.53.31:703][828]LogModuleManager: Shutting down and abandoning module HotReload (209)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module ContentBrowser (205)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (202)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (200)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (198)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (196)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module PhysXVehicles (194)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (192)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module Paper2D (190)
+[2018.08.24-18.53.31:704][828]LogModuleManager: Shutting down and abandoning module TcpMessaging (188)
+[2018.08.24-18.53.31:805][828]LogModuleManager: Shutting down and abandoning module UdpMessaging (186)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (184)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module PacketHandler (182)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (180)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (178)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module MediaAssets (176)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module Overlay (174)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module OverlayEditor (173)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module VREditor (170)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module StringTableEditor (168)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (166)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (164)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module FunctionalTesting (162)
+[2018.08.24-18.53.31:905][828]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (160)
+[2018.08.24-18.53.31:906][828]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (159)
+[2018.08.24-18.53.31:906][828]LogModuleManager: Shutting down and abandoning module UMG (156)
+[2018.08.24-18.53.31:906][828]LogModuleManager: Shutting down and abandoning module UMGEditor (155)
+[2018.08.24-18.53.31:906][828]LogModuleManager: Shutting down and abandoning module Sequencer (154)
+[2018.08.24-18.53.31:906][828]LogModuleManager: Shutting down and abandoning module MessageLog (151)
+[2018.08.24-18.53.31:906][828]LogModuleManager: Shutting down and abandoning module SlateReflector (146)
+[2018.08.24-18.53.31:906][828]LogModuleManager: Shutting down and abandoning module Slate (144)
+[2018.08.24-18.53.31:906][828]LogModuleManager: Shutting down and abandoning module EditorStyle (142)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module MRMesh (140)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module Messaging (138)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (136)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (134)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module AudioMixerSDL (132)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module Networking (130)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module Core (128)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module LevelSequence (126)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module KismetCompiler (124)
+[2018.08.24-18.53.31:908][828]LogModuleManager: Shutting down and abandoning module MeshUtilities (122)
+[2018.08.24-18.53.31:909][828]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (121)
+[2018.08.24-18.53.31:909][828]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (120)
+[2018.08.24-18.53.31:909][828]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
+[2018.08.24-18.53.31:909][828]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
+[2018.08.24-18.53.31:909][828]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (111)
+[2018.08.24-18.53.32:010][828]LogModuleManager: Shutting down and abandoning module DerivedDataCache (108)
+[2018.08.24-18.53.32:013][828]LogDerivedDataCache: Shutdown
+[2018.08.24-18.53.32:013][828]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2018.08.24-18.53.32:013][828]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2018.08.24-18.53.32:013][828]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2018.08.24-18.53.32:013][828]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2018.08.24-18.53.32:013][828]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (99)
+[2018.08.24-18.53.32:013][828]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (97)
+[2018.08.24-18.53.32:013][828]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (95)
+[2018.08.24-18.53.32:013][828]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (93)
+[2018.08.24-18.53.32:014][828]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (91)
+[2018.08.24-18.53.32:014][828]LogModuleManager: Shutting down and abandoning module ImageWrapper (90)
+[2018.08.24-18.53.32:014][828]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (87)
+[2018.08.24-18.53.32:014][828]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (85)
+[2018.08.24-18.53.32:014][828]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (83)
+[2018.08.24-18.53.32:014][828]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (81)
+[2018.08.24-18.53.32:014][828]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (77)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (75)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (73)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (71)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (69)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (58)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module SteamVR (56)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module LinuxDeviceProfileSelector (54)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (52)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2018.08.24-18.53.32:022][828]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2018.08.24-18.53.32:023][828]LogModuleManager: Shutting down and abandoning module XMPP (41)
+[2018.08.24-18.53.32:023][828]LogModuleManager: Shutting down and abandoning module HTTP (39)
+[2018.08.24-18.53.32:023][828]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.08.24-18.53.32:023][828]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0CBF881C-08D6-09B6-A91C-AFB4535505AA%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.20.2-0%2B%2B%2BUE4%2BRelease-4.20&UserID=0002ab831f081317002d01845e7c9209%7C%7Cc8f58ce9e2214f0fa4a7084ae9c11240&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2018.08.24-18.53.32:030][828]LogModuleManager: Shutting down and abandoning module SSL (38)
+[2018.08.24-18.53.32:031][828]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.08.24-18.53.32:031][828]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.08.24-18.53.32:032][828]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.08.24-18.53.32:033][828]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.08.24-18.53.32:033][828]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.08.24-18.53.32:033][828]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.08.24-18.53.32:033][828]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.08.24-18.53.32:033][828]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.08.24-18.53.32:033][828]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.08.24-18.53.32:033][828]LogExit: Exiting.
+[2018.08.24-18.53.32:033][828]LogInit: Tearing down SDL.
+[2018.08.24-18.53.32:082][828]Log file closed, 08/24/18 11:53:32

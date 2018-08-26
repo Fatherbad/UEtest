@@ -1,0 +1,11 @@
+"/home/fatherbad/Game/Projects/Truvane/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/Truvane/Truvane.cpp.o"
+"/home/fatherbad/Game/Projects/Truvane/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/Truvane/TruvaneCharacter.cpp.o"
+"/home/fatherbad/Game/Projects/Truvane/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/Truvane/TruvaneGameMode.cpp.o"
+"/home/fatherbad/Game/Projects/Truvane/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/Truvane/Truvane.init.gen.cpp.o"
+"/home/fatherbad/Game/Projects/Truvane/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/Truvane/TruvaneCharacter.gen.cpp.o"
+"/home/fatherbad/Game/Projects/Truvane/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/Truvane/TruvaneGameMode.gen.cpp.o"
+ -soname="libUE4Editor-Truvane.so"
+ -rpath-link="/home/fatherbad/Game/Projects/Truvane/Binaries/Linux"
+ -L"/home/fatherbad/Game/UnrealEngine/Engine/Binaries/Linux"
+ --start-group
+ --end-group

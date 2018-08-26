@@ -1,0 +1,3 @@
+/home/fatherbad/Game/Projects/Truvane/Source/Truvane/Truvane.Build.cs
+/home/fatherbad/Game/Projects/Truvane/Source/Truvane.Target.cs
+/home/fatherbad/Game/Projects/Truvane/Source/TruvaneEditor.Target.cs
